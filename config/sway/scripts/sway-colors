@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sway_colors_file="$HOME/.config/sway/colors"
+sway_colors_file="$HOME/.config/sway/config.d/10-colors"
 colors="$(<"$sway_colors_file")"
 
 export xbg="$(grep -m 1 'set $xbg ' <<< "$colors" | awk '{print $3}')"
