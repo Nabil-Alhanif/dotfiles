@@ -23,7 +23,7 @@ exec {
     # /usr/lib/kdeconnectd
 
     # Eww stuff
-    $eww/init
+    #$eww/init
 
     # Other daemons
     $sway/battery-notifications

@@ -24,8 +24,8 @@ case "$eww_sidebar_page" in
         ["j"]="swaymsg exec \$cmd_volume_lower"
         ["k"]="swaymsg exec \$cmd_volume_raise"
         ["v"]="swaymsg exec \$cmd_volume_mute"
-        ["J"]="light -U 10"
-        ["K"]="light -A 10"
+        ["J"]="brightnessctl set 10%-"
+        ["K"]="brightnessctl set +10%"
     )
     ;;
   1 )

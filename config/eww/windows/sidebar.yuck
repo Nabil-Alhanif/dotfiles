@@ -80,7 +80,7 @@
                   :value "${brightness}"
                   :hover-value "${round(brightness, 0)}"
                   :class "brightness"
-                  :onchange "light -S {}")
+                  :onchange "brightnessctl set {}%")
                 (slider-with-label
                   :label ""
                   :value "${EWW_TEMPS.ACPITZ_TEMP1}"

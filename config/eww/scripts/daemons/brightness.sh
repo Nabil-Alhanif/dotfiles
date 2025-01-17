@@ -1,6 +1,6 @@
 #!/bin/sh
 update() {
-    eww update brightness=$(light -G)
+    eww update brightness=$(brightnessctl get)
 }
 
 update
