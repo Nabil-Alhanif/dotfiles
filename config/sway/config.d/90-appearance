@@ -139,7 +139,7 @@ gaps inner 10
 # >> Cursor
 # Name of the cursor theme directory in ~/.icons
 set $cursor_theme Bibata-Modern-Ice
-set $cursor_size 40
+set $cursor_size 24
 
 seat seat0 xcursor_theme $cursor_theme $cursor_size
 

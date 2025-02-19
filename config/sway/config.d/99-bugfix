@@ -15,6 +15,6 @@ for_window [class="^game.exe$" title="^Diablo II$"] exec "eww open bottom-bar; s
 # https://gitlab.freedesktop.org/drm/amd/-/issues/3549
 # See the fix-amd-gpu-bug script for an explanation.
 assign [app_id="^MINIMIZE_ME$"] $ws10
-exec $sway/fix-amd-gpu-bug
+#exec $sway/fix-amd-gpu-bug
 
 # vim:set ft=conf:

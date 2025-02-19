@@ -26,16 +26,16 @@ bindsym --to-code {
 
     # >> Workspaces
     # Focus workspace
-    $mod+1 workspace $ws1; #$post_workspace_switch
-    $mod+2 workspace $ws2; #$post_workspace_switch
-    $mod+3 workspace $ws3; #$post_workspace_switch
-    $mod+4 workspace $ws4; #$post_workspace_switch
-    $mod+5 workspace $ws5; #$post_workspace_switch
-    $mod+6 workspace $ws6; #$post_workspace_switch
-    $mod+7 workspace $ws7; #$post_workspace_switch
-    $mod+8 workspace $ws8; #$post_workspace_switch
-    $mod+9 workspace $ws9; #$post_workspace_switch
-    $mod+0 workspace $ws10; #$post_workspace_switch
+    $mod+1 workspace $ws1; $post_workspace_switch
+    $mod+2 workspace $ws2; $post_workspace_switch
+    $mod+3 workspace $ws3; $post_workspace_switch
+    $mod+4 workspace $ws4; $post_workspace_switch
+    $mod+5 workspace $ws5; $post_workspace_switch
+    $mod+6 workspace $ws6; $post_workspace_switch
+    $mod+7 workspace $ws7; $post_workspace_switch
+    $mod+8 workspace $ws8; $post_workspace_switch
+    $mod+9 workspace $ws9; $post_workspace_switch
+    $mod+0 workspace $ws10; $post_workspace_switch
 
     # Move focused container to workspace
     $mod+Shift+1 move container to workspace $ws1

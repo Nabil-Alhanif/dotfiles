@@ -7,7 +7,7 @@ output eDP-1 {
 
 }
 
-#output * color_profile icc ~/dotfiles/config/sway/FW16-Screen-Calibration.icc
+output * color_profile icc ~/dotfiles/config/sway/FW16-Screen-Calibration.icc
 
 # Use monitor defaults for all apps
 # for_window [app_id=".*"] max_render_time off

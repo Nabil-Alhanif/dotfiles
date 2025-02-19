@@ -10,7 +10,7 @@
 # Workaround: Open a lightweight app (kitty terminal) that can use the GPU. If
 # the bug appears again, kill it and re-open it.
 while true; do
-    if [[ $(cat /sys/class/drm/card0/device/gpu_busy_percent) -gt 98 ]]; then
+    if [[ $(cat /sys/class/drm/card1/device/gpu_busy_percent) -gt 98 ]]; then
         # I use this notification to know if the bug is still happening or not
         # after kernel/driver updates.
         notify-send.sh -R /tmp/amd_gpu_fix_idle_notification "GPU" "The kitty fix was applied"

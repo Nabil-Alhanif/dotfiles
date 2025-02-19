@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 eww="$HOME/.config/eww/scripts"
 # Get location from pass vault
-location="$(pass-field wttr.in location)"
+#location="$(pass-field wttr.in location)"
 # Or hardcode it
-# location="Moscow,Russia"
+location="Vancouver,Canada"
 
 # Associative array with weather icon codes and icons
 # https://github.com/chubin/wttr.in/blob/master/lib/constants.py

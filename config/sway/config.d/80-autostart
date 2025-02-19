@@ -10,6 +10,8 @@ exec {
     # See FS#63021
 	# TODO: Read /etc/sway/config.d/50-systemd-user.conf and find out what it does!
 
+	/usr/libexec/polkit-gnome-authentication-agent-1
+
     # Prevents GTK apps from hanging for 15-20 sec before launching
     dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 
@@ -23,15 +25,15 @@ exec {
     # /usr/lib/kdeconnectd
 
     # Eww stuff
-    #$eww/init
+    $eww/init
 
     # Other daemons
-    $sway/battery-notifications
-    $sway/xkb-layout-notifications
+    #$sway/battery-notifications
+    #$sway/xkb-layout-notifications
     # Smart english layout
     # Switch to english keyboard layout for some windows and restore the old
     # layout afterwards. Configuration is in the script itself.
-    $sway/smart-english-layout
+    #$sway/smart-english-layout
     # Fix Awakened PoE Trade (somewhat)
     # $sway/fix-awakened-poe-trade
 
